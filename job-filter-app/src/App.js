@@ -1,11 +1,13 @@
-import './App.css';
+import "./App.css";
+import Data from "../src/Components/data"
 
-const App = () =>{
+const App = () => {
   return (
     <div className="App">
-     <h1>hello world</h1>
+      <h1>Jobs filtering</h1>
+      <Data/>
     </div>
   );
-}
+};
 
 export default App;
